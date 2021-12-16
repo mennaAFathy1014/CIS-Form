@@ -15,4 +15,4 @@ const fun = (f, s) => {
         console.log('False')
     }
 }
-console.log(fun('string', 'HELLO'));
+fun('string', 'HELLO');
