@@ -1,0 +1,76 @@
+body {
+  font-family: sans-serif;
+}
+.cis {
+  font-size: 40px;
+  font-weight: bold;
+}
+.container {
+  width: 600px;
+  background-color: #eee;
+  padding: 20px;
+  text-align: center;
+  margin: 50px auto;
+}
+.parent {
+  margin: 15px auto;
+  display: flex;
+}
+.parent div {
+  display: flex;
+  height: 150px;
+  justify-content: center;
+  width: calc(100% / 4);
+  padding: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+}
+.c {
+  background-color: #06c9b5;
+  position: relative;
+  font-size: 55px;
+}
+.c::after {
+  content: "YOUR";
+  width: calc(100% - 40px);
+  padding: 20px;
+  background-color: white;
+  color: black;
+  position: absolute;
+  left: 0;
+  font-size: 20px;
+  bottom: -20px;
+}
+.i {
+  background-color: #19b696;
+  position: relative;
+  font-size: 55px;
+}
+.i::after {
+  content: "WAY";
+  width: calc(100% - 40px);
+  padding: 20px;
+  background-color: white;
+  color: black;
+  position: absolute;
+  left: 0;
+  font-size: 20px;
+  bottom: -20px;
+}
+.s {
+  background-color: #00bcd4;
+  position: relative;
+  font-size: 55px;
+}
+.s::after {
+  content: "TO SUCCESS";
+  width: calc(100% - 40px);
+  padding: 20px;
+  background-color: white;
+  color: black;
+  position: absolute;
+  left: 0;
+  font-size: 20px;
+  bottom: -20px;
+}
